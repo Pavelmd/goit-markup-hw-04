@@ -406,10 +406,20 @@ p {
   margin-bottom: 0px;
 }
 
-/* Колір основного текста #212121 */
-/* Вторинний колір текста #757575 */
-/* Колір Логотипа #000000 */
-/* Колір Логотипа #2196F3 */
-/* Акцент #2196F3 */
-/* Колір адреса #FFFFFF  rgba(255, 255, 255, 0.6) */
-/* Вторинний колір фона #2F303A */
+         /* Спрайт */
+.icon {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+ .icon-features {
+  
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #F5F4FA;
+   margin-bottom: 30px; 
+   height: 120px;
+   
+ }
+
