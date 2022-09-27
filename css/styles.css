@@ -408,18 +408,36 @@ p {
 
          /* Спрайт */
 .icon {
-  width: 16px;
-  height: 12px;
-  fill: #757575;
+  fill: currentColor;
+  margin-right: 10px;
 }
  .icon-features {
-  
    display: flex;
   justify-content: center;
   align-items: center; 
   background-color: #F5F4FA;
    margin-bottom: 30px; 
-   height: 120px;
+   height: 120px; 
+   }
    
- }
+   .social-links {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+     text-decoration: none; 
+     display: block;
+   }
+ /* .social-networks {
+  display: flex;
+  /* align-items: center;
+    justify-content: center; */ 
 
+ .social-list {
+  display:flex;
+   align-items: flex-start;
+   /* justify-content: center;   */
+}
+/* .join {
+  text-align: left;
+}  */
