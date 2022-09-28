@@ -507,20 +507,20 @@ p {
 .icon-client {
   fill: #afb1b8;
 }
- .client-list {
+.client-list {
   display: flex;
-    align-items: center;
-    justify-content: center;
-} 
- .client-link {
+  align-items: center;
+  justify-content: center;
+}
+.client-link {
   text-decoration: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-      border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .client-items {
   margin-left: 30px;
@@ -534,7 +534,7 @@ p {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
- .client-link:hover .icon-client,
- .client-link:focus .icon-client {
-   fill: var(--accent-color);
- }
+.client-link:hover .icon-client,
+.client-link:focus .icon-client {
+  fill: var(--accent-color);
+}
