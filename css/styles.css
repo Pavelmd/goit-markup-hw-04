@@ -452,6 +452,7 @@ p {
 
 .social-list {
   display: flex;
+  gap: 10px;
 }
 
 .icon-social-links {
@@ -481,7 +482,7 @@ p {
   fill: #afb1b8;
 }
 .icon-items {
-  margin-left: 22px;
+  margin-left: 10px;
 }
 .icon-items:nth-child(1) {
   margin-left: 0px;
